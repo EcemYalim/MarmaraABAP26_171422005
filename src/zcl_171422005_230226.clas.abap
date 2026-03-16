@@ -1,0 +1,21 @@
+CLASS zcl_171422005_230226 DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    INTERFACES if_oo_adt_classrun .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_171422005_230226 IMPLEMENTATION.
+
+
+  METHOD if_oo_adt_classrun~main.
+        out->write( 'Hello ABAP Cloud' ).
+  ENDMETHOD.
+ENDCLASS.
